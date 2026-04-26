@@ -1,8 +1,6 @@
 function Board({children}) {
     return(
-        <section>
-
-        </section>
+        <section>{children}</section>
     )
 }
 
