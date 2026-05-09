@@ -7,7 +7,7 @@ import upcoming from './upcoming-events.json';
 function App() {
   return (
     <Board>
-      <Title text="hello wrld"/>
+      <Title text="24th Core Worlds Coalition Conference"/>
       <List events={upcoming}/>
     </Board>
   )

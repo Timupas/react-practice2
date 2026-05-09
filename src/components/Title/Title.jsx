@@ -1,7 +1,7 @@
-function Title({text}) {
-    return (
-        <h1>{text}</h1>
-    )
+import { StyledTitle } from './Title.module';
+
+function Title({ text }) {
+  return <StyledTitle>{text}</StyledTitle>;
 }
 
-export default Title
+export default Title;
